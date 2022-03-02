@@ -1,0 +1,22 @@
+{
+    "name": "antonio-jps-alves/buscador-cursos-alura",
+    "description": "Projeto que busca cursos no site da alura",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "AntonioJpsAlves\\BuscadorCursosAlura\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Antonio",
+            "email": "antonio.jpsalves@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "guzzlehttp/guzzle": "^7.4",
+        "symfony/dom-crawler": "^5.4",
+        "symfony/css-selector": "^5.4"
+    }
+}
